@@ -1,0 +1,29 @@
+# Delphia
+
+> Delphia (Delphia Technologies Inc., Toronto, Canada) is an AI-driven quantitative
+> investment firm that leverages alternative data to power systematic trading
+> strategies. Once a consumer robo-advisor and data-reward token platform, Delphia
+> pivoted in 2024 to institutional quant investing. Delphia does not currently
+> publish a public developer API, SDK, or developer portal.
+
+## Company
+- [Website](https://delphia.com): Company home
+- [Contact](https://delphia.com/contact): Contact and Toronto mailing address (support@delphia.com)
+
+## Products
+- Oracle Alpha: Institutional hedge fund (launched May 2024)
+- Tilt: Trend-based investment platform (launched November 2024)
+- Backchannel: Expert-knowledge monetization platform (announced)
+
+## Legal
+- [Terms of Service](https://delphia.com/terms-of-service)
+- [Privacy Policy](https://delphia.com/privacy-policy)
+
+## Security
+- [security.txt](https://delphia.com/.well-known/security.txt): Report to security@delphia.com
+
+## Notes
+- No public API, OpenAPI, or first-party SDK is published as of 2026-07-18.
+- The InvestOS backtesting framework was spun out in 2023 as ForecastOS
+  (github.com/forecastos, PyPI `forecastos`/`investos`) and is maintained by a
+  separate company, not first-party to Delphia.

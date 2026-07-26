@@ -1,0 +1,3 @@
+Contact: mailto:security@delphia.com
+Encryption: https://delphia.com/security.gpg
+Policy: https://delphia.com/privacy-policy

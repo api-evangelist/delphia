@@ -1,8 +1,24 @@
 aid: delphia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/delphia.png
 name: Delphia
-description: 'Delphia is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Delphia (Delphia Technologies Inc., Toronto, Canada) is an AI-driven
+  quantitative investment firm that puts alternative data to work in systematic trading
+  strategies. Originally a consumer robo-advisor and data-reward token platform backed
+  by a $60M Series A led by Multicoin Capital, Delphia pivoted in 2024 to institutional
+  quant investing with its Oracle Alpha hedge fund and Tilt trend platform. As of this
+  writing Delphia publishes no public developer API, SDK, or developer portal; this
+  profile captures the company identity plus its live security and well-known surfaces.'
 url: https://raw.githubusercontent.com/api-evangelist/delphia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Crypto Web3
+- Fintech
+- Investing
+- Artificial Intelligence
+- Data
+- Quantitative Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,26 @@ maintainers:
 common:
 - type: Website
   url: https://delphia.com
+- type: Support
+  url: https://delphia.com/contact
+- type: TermsOfService
+  url: https://delphia.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://delphia.com/privacy-policy
+- type: VulnerabilityDisclosure
+  url: security/delphia-vulnerability-disclosure.yml
+- type: Security
+  url: security/delphia-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/delphia-domain-security.yml
+- type: SecurityTxt
+  url: well-known/delphia-security.txt
+- type: WellKnown
+  url: well-known/delphia-well-known.yml
+- type: LLMsTxt
+  url: llms/delphia-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
